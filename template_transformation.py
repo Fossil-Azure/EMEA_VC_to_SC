@@ -88,7 +88,7 @@ if vc_file_upload:
                     "model_number#1.value": "model_number[marketplace_id={m_id}]#1.value",
                     "model_name#1.value": "model_name[marketplace_id={m_id}][language_tag={lang}]#1.value",
                     "manufacturer#1.value": "manufacturer[marketplace_id={m_id}][language_tag={lang}]#1.value",
-                    "rtip_product_description#1.value": "product_description[marketplace_id=A1F83G8C2ARO7P][language_tag=en_GB]#1.value",
+                    "rtip_product_description#1.value": "product_description[marketplace_id={m_id}][language_tag={lang}]#1.value",
                     "bullet_point#1.value": "bullet_point[marketplace_id={m_id}][language_tag={lang}]#1.value",
                     "bullet_point#2.value": "bullet_point[marketplace_id={m_id}][language_tag={lang}]#2.value",
                     "bullet_point#3.value": "bullet_point[marketplace_id={m_id}][language_tag={lang}]#3.value",
