@@ -120,7 +120,7 @@ if vc_file_upload:
 
     if st.button("🚀 Run Automation Engine", type="primary"):
         output_prefix = selected_subcategory or selected_category
-        output_filename = f"SC_{output_prefix}_Static_Mapped_{target_country}.xlsm"
+        output_filename = f"SC_{output_prefix}_{target_country}.xlsm"
 
         try:
             with st.spinner("Processing mapping schemas & localization..."):
@@ -145,7 +145,7 @@ if vc_file_upload:
                 xl = pd.ExcelFile(vc_file_upload)
 
                 vc_sheet_to_use = None
-                common_vc_sheets = [target_sheet, "Template-WATCH", "Template-BRACELET", "Template-EARRING"]
+                common_vc_sheets = [target_sheet, "Template-WATCH", "Template-BRACELET", "Template-EARRING", "Template-NECKLACE"]
 
                 for name in common_vc_sheets:
                     for actual_name in xl.sheet_names:
