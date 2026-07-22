@@ -145,7 +145,7 @@ if vc_file_upload:
                 xl = pd.ExcelFile(vc_file_upload)
 
                 vc_sheet_to_use = None
-                common_vc_sheets = [target_sheet, "Template-WATCH", "Template-BRACELET", "Template-EARRING", "Template-NECKLACE"]
+                common_vc_sheets = [target_sheet, "Template-WATCH", "Template-BRACELET", "Template-EARRING", "Template-NECKLACE", "Template-RING"]
 
                 for name in common_vc_sheets:
                     for actual_name in xl.sheet_names:

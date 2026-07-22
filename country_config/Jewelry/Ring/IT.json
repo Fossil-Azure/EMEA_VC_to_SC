@@ -7,33 +7,44 @@
   "base_mappings": {
     "vendor_sku#1.value": "contribution_sku#1.value",
     "product_type#1.value": "product_type#1.value",
-    "item_name#1.value": "item_name[marketplace_id=APJ6JRA9NG5V4][language_tag=it_IT]#1.value",
-    "brand#1.value": "brand[marketplace_id=APJ6JRA9NG5V4][language_tag=it_IT]#1.value",
+    "item_name#1.value": "item_name[marketplace_id={m_id}][language_tag={lang}]#1.value",
+    "brand#1.value": "brand[marketplace_id={m_id}][language_tag={lang}]#1.value",
     "external_product_id#1.type": "amzn1.volt.ca.product_id_type",
     "external_product_id#1.value": "amzn1.volt.ca.product_id_value",
-    "rtip_product_description#1.value": "product_description[marketplace_id=APJ6JRA9NG5V4][language_tag=it_IT]#1.value",
-    "bullet_point#1.value": "bullet_point[marketplace_id=APJ6JRA9NG5V4][language_tag=it_IT]#1.value",
-    "bullet_point#2.value": "bullet_point[marketplace_id=APJ6JRA9NG5V4][language_tag=it_IT]#2.value",
-    "bullet_point#3.value": "bullet_point[marketplace_id=APJ6JRA9NG5V4][language_tag=it_IT]#3.value",
-    "bullet_point#4.value": "bullet_point[marketplace_id=APJ6JRA9NG5V4][language_tag=it_IT]#4.value",
-    "bullet_point#5.value": "bullet_point[marketplace_id=APJ6JRA9NG5V4][language_tag=it_IT]#5.value",
-    "generic_keyword#1.value": "generic_keyword[marketplace_id=APJ6JRA9NG5V4][language_tag=it_IT]#1.value",
-    "style#1.value": "style[marketplace_id=APJ6JRA9NG5V4][language_tag=it_IT]#1.value",
-    "department#1.value": "department[marketplace_id=APJ6JRA9NG5V4][language_tag=it_IT]#1.value",
-    "target_gender#1.value": "target_gender[marketplace_id=APJ6JRA9NG5V4]#1.value",
-    "jewelry_material_categorization#1.value": "jewelry_material_categorization[marketplace_id=APJ6JRA9NG5V4]#1.value",
-    "material#1.value": "material[marketplace_id=APJ6JRA9NG5V4][language_tag=it_IT]#1.value",
-    "color#1.value": "color[marketplace_id=APJ6JRA9NG5V4][language_tag=it_IT]#1.value",
-    "size#1.value": "size[marketplace_id=APJ6JRA9NG5V4][language_tag=it_IT]#1.value",
-    "gem_type#1.value": "gem_type[marketplace_id=APJ6JRA9NG5V4][language_tag=it_IT]#1.value",
-    "part_number#1.value": "part_number[marketplace_id=APJ6JRA9NG5V4]#1.value",
-    "collection#1.value": "collection[marketplace_id=APJ6JRA9NG5V4][language_tag=it_IT]#1.value",
-    "clasp_type#1.value": "clasp_type[marketplace_id=APJ6JRA9NG5V4][language_tag=it_IT]#1.value",
-    "item_length#1.value": "item_length[marketplace_id=APJ6JRA9NG5V4]#1.value",
-    "item_length#1.unit": "item_length[marketplace_id=APJ6JRA9NG5V4]#1.unit",
-    "country_of_origin#1.value": "country_of_origin[marketplace_id=APJ6JRA9NG5V4]#1.value",
-    "batteries_required#1.value": "batteries_required[marketplace_id=APJ6JRA9NG5V4]#1.value",
-    "supplier_declared_dg_hz_regulation#1.value": "supplier_declared_dg_hz_regulation[marketplace_id=APJ6JRA9NG5V4]#1.value"
+    "rtip_product_description#1.value": "product_description[marketplace_id={m_id}][language_tag={lang}]#1.value",
+    "bullet_point#1.value": "bullet_point[marketplace_id={m_id}][language_tag={lang}]#1.value",
+    "bullet_point#2.value": "bullet_point[marketplace_id={m_id}][language_tag={lang}]#2.value",
+    "bullet_point#3.value": "bullet_point[marketplace_id={m_id}][language_tag={lang}]#3.value",
+    "bullet_point#4.value": "bullet_point[marketplace_id={m_id}][language_tag={lang}]#4.value",
+    "bullet_point#5.value": "bullet_point[marketplace_id={m_id}][language_tag={lang}]#5.value",
+    "generic_keyword#1.value": "generic_keyword[marketplace_id={m_id}][language_tag={lang}]#1.value",
+    "style#1.value": "style[marketplace_id={m_id}][language_tag={lang}]#1.value",
+    "department#1.value": "department[marketplace_id={m_id}][language_tag={lang}]#1.value",
+    "target_gender#1.value": "target_gender[marketplace_id={m_id}]#1.value",
+    "jewelry_material_categorization#1.value": "jewelry_material_categorization[marketplace_id={m_id}]#1.value",
+    "material#1.value": "material[marketplace_id={m_id}][language_tag={lang}]#1.value",
+    "color#1.value": "color[marketplace_id={m_id}][language_tag={lang}]#1.value",
+    "size#1.value": "size[marketplace_id={m_id}][language_tag={lang}]#1.value",
+    "gem_type#1.value": "gem_type[marketplace_id={m_id}][language_tag={lang}]#1.value",
+    "part_number#1.value": "part_number[marketplace_id={m_id}]#1.value",
+    "collection#1.value": "collection[marketplace_id={m_id}][language_tag={lang}]#1.value",
+    "item_package_dimensions#1.length.value": "item_package_dimensions[marketplace_id={m_id}]#1.length.value",
+    "item_package_dimensions#1.length.unit": "item_package_dimensions[marketplace_id={m_id}]#1.length.unit",
+    "item_package_dimensions#1.width.value": "item_package_dimensions[marketplace_id={m_id}]#1.width.value",
+    "item_package_dimensions#1.width.unit": "item_package_dimensions[marketplace_id={m_id}]#1.width.unit",
+    "item_package_dimensions#1.height.value": "item_package_dimensions[marketplace_id={m_id}]#1.height.value",
+    "item_package_dimensions#1.height.unit": "item_package_dimensions[marketplace_id={m_id}]#1.height.unit",
+    "item_package_weight#1.value": "item_package_weight[marketplace_id={m_id}]#1.value",
+    "item_package_weight#1.unit": "item_package_weight[marketplace_id={m_id}]#1.unit",
+    "country_of_origin#1.value": "country_of_origin[marketplace_id={m_id}]#1.value",
+    "batteries_required#1.value": "batteries_required[marketplace_id={m_id}]#1.value",
+    "supplier_declared_dg_hz_regulation#1.value": "supplier_declared_dg_hz_regulation[marketplace_id={m_id}]#1.value",
+    "manufacturer#1.value": "manufacturer[marketplace_id={m_id}][language_tag={lang}]#1.value",
+    "number_of_items#1.value": "number_of_items[marketplace_id={m_id}]#1.value",
+    "ring#1.size#1.value": "ring[marketplace_id={m_id}]#1.size[language_tag=lang]#1.value",
+    "metals#1.id": "metals[marketplace_id={m_id}]#1.id",
+    "metals#1.metal_type.value": "metals[marketplace_id={m_id}]#1.metal_type[language_tag={lang}].value",
+    "metals#1.metal_stamp.value": "metals[marketplace_id={m_id}]#1.metal_stamp[language_tag={lang}].value"
   },
   "dropdown_translation_keys": {
     "style[marketplace_id={m_id}][language_tag={lang}]#1.value": "style_name",
@@ -43,10 +54,13 @@
     "material[marketplace_id={m_id}][language_tag={lang}]#1.value": "material_bracelet",
     "size[marketplace_id={m_id}][language_tag={lang}]#1.value": "bracelet_size",
     "gem_type[marketplace_id={m_id}][language_tag={lang}]#1.value": "gem_type",
-    "clasp_type[marketplace_id={m_id}][language_tag={lang}]#1.value": "clasp_type",
-    "item_length[marketplace_id={m_id}]#1.unit": "length_units",
     "batteries_required[marketplace_id={m_id}]#1.value": "yes_no",
-    "supplier_declared_dg_hz_regulation[marketplace_id={m_id}]#1.value": "supplier_declared_dg_hz_regulation"
+    "supplier_declared_dg_hz_regulation[marketplace_id={m_id}]#1.value": "supplier_declared_dg_hz_regulation",
+    "item_package_weight[marketplace_id={m_id}]#1.unit": "weight_units",
+    "item_package_dimensions[marketplace_id={m_id}]#1.length.unit": "length_units",
+    "item_package_dimensions[marketplace_id={m_id}]#1.height.unit": "length_units",
+    "item_package_dimensions[marketplace_id={m_id}]#1.width.unit": "length_units",
+    "collection[marketplace_id={m_id}][language_tag={lang}]#1.value": "collection_name"
   },
   "translations": {
     "style_name": {
@@ -78,6 +92,15 @@
     "jewelry_material_categorization": {
       "Fashion": "fashion",
       "Fine": "fine"
+    },
+    "weight_units": {
+      "Kilograms": "Chilogrammi",
+      "Milligrams": "Milligrammi",
+      "Grams": "Grammi",
+      "Ounces": "Once",
+      "Hundredths Pounds": "Centesimi libbre",
+      "Pounds": "Libbre",
+      "Tons": "Tonnellate"
     },
     "material_bracelet": {
       "Acetate": "Acetato",
@@ -399,6 +422,12 @@
       "Other": "Altro",
       "Not Applicable": "Non applicabile",
       "Unknown": "Sconosciuto"
+    },
+    "collection_name": {
+      "Autumn": "Autunno",
+      "Spring": "Primavera",
+      "Summer": "Estate",
+      "Winter": "Inverno"
     }
   }
 }
