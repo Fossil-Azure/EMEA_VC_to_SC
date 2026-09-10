@@ -52,7 +52,8 @@
     "item_package_weight#1.value": "item_package_weight[marketplace_id={m_id}]#1.value",
     "item_package_weight#1.unit": "item_package_weight[marketplace_id={m_id}]#1.unit",
     "gpsr_safety_attestation#1.value": "gpsr_safety_attestation[marketplace_id={m_id}]#1.value",
-    "gpsr_manufacturer_reference#1.gpsr_manufacturer_email_address": "gpsr_manufacturer_reference[marketplace_id={m_id}]#1.gpsr_manufacturer_email_address"
+    "gpsr_manufacturer_reference#1.gpsr_manufacturer_email_address": "gpsr_manufacturer_reference[marketplace_id={m_id}]#1.gpsr_manufacturer_email_address",
+    "manufacturer#1.value": "manufacturer[marketplace_id={m_id}][language_tag={lang}]#1.value"
   },
   "dropdown_translation_keys": {
     "department[marketplace_id={m_id}][language_tag={lang}]#1.value": "department_name",
@@ -71,16 +72,17 @@
     "metals[marketplace_id={m_id}]#1.metal_weight.unit": "weight_unit",
     "batteries_required[marketplace_id={m_id}]#1.value": "yes_no",
     "supplier_declared_dg_hz_regulation[marketplace_id={m_id}]#1.value": "regulations",
-    "gpsr_safety_attestation[marketplace_id={m_id}]#1.value": "yes_no"
+    "gpsr_safety_attestation[marketplace_id={m_id}]#1.value": "yes_no",
+    "item_package_weight[marketplace_id={m_id}]#1.unit": "weight_unit"
   },
   "translations": {
     "department_name": {
       "Baby Girls": "Bimba 0-24",
       "Baby Boys": "Bimbo 0-24",
-      "Women": "Donna",
-      "Girls": "Bambine e ragazze",
-      "Boys": "Bambini e ragazzi",
-      "Men": "Uomo",
+      "Women's": "Donna",
+      "Girl's": "Bambine e ragazze",
+      "Boy's": "Bambini e ragazzi",
+      "Men's": "Uomo",
       "Unisex Adult": "Unisex - Adulto",
       "Unisex Baby": "Unisex - Bimbi 0-24",
       "Unisex Kids": "Unisex - Bambini e ragazzi"
@@ -403,6 +405,7 @@
     "length_unit": {
       "Millimetres": "Millimetri",
       "Centimetres": "Centimetri",
+      "Centimeters": "Centímetros",
       "Metres": "Metri",
       "Inches": "Pollici",
       "Feet": "Piedi",

@@ -71,7 +71,9 @@
     "metals[marketplace_id={m_id}]#1.metal_weight.unit": "weight_unit",
     "batteries_required[marketplace_id={m_id}]#1.value": "yes_no",
     "supplier_declared_dg_hz_regulation[marketplace_id={m_id}]#1.value": "regulations",
-    "gpsr_safety_attestation[marketplace_id={m_id}]#1.value": "yes_no"
+    "gpsr_safety_attestation[marketplace_id={m_id}]#1.value": "yes_no",
+    "manufacturer#1.value": "manufacturer[marketplace_id={m_id}][language_tag={lang}]#1.value",
+    "item_package_weight[marketplace_id={m_id}]#1.unit": "weight_unit"
   },
   "translations": {
     "department_name": {
@@ -404,6 +406,7 @@
     "length_unit": {
       "Millimetres": "Millimeter",
       "Centimetres": "Zentimeter",
+      "Centimeters": "Centímetros",
       "Metres": "Meter",
       "Inches": "Zoll",
       "Feet": "Fuß",

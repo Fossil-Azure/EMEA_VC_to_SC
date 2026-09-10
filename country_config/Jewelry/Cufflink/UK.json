@@ -52,7 +52,8 @@
     "item_package_weight#1.value": "item_package_weight[marketplace_id={m_id}]#1.value",
     "item_package_weight#1.unit": "item_package_weight[marketplace_id={m_id}]#1.unit",
     "gpsr_safety_attestation#1.value": "gpsr_safety_attestation[marketplace_id={m_id}]#1.value",
-    "gpsr_manufacturer_reference#1.gpsr_manufacturer_email_address": "gpsr_manufacturer_reference[marketplace_id={m_id}]#1.gpsr_manufacturer_email_address"
+    "gpsr_manufacturer_reference#1.gpsr_manufacturer_email_address": "gpsr_manufacturer_reference[marketplace_id={m_id}]#1.gpsr_manufacturer_email_address",
+    "manufacturer#1.value": "manufacturer[marketplace_id={m_id}][language_tag={lang}]#1.value"
   },
   "dropdown_translation_keys": {
   },
