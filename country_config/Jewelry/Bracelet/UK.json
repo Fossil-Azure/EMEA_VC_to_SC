@@ -11,6 +11,7 @@
     "brand#1.value": "brand[marketplace_id=A1F83G8C2ARO7P][language_tag=en_GB]#1.value",
     "external_product_id#1.type": "amzn1.volt.ca.product_id_type",
     "external_product_id#1.value": "amzn1.volt.ca.product_id_value",
+    "manufacturer#1.value": "manufacturer[marketplace_id={m_id}][language_tag={lang}]#1.value",
     "rtip_product_description#1.value": "product_description[marketplace_id=A1F83G8C2ARO7P][language_tag=en_GB]#1.value",
     "bullet_point#1.value": "bullet_point[marketplace_id=A1F83G8C2ARO7P][language_tag=en_GB]#1.value",
     "bullet_point#2.value": "bullet_point[marketplace_id=A1F83G8C2ARO7P][language_tag=en_GB]#2.value",
